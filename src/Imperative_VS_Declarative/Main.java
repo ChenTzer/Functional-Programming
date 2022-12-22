@@ -1,10 +1,11 @@
-package Imperative;
+package Imperative_VS_Declarative;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-import static Imperative.Main.Gender.*;
+import static Imperative_VS_Declarative.Main.Gender.*;
 
 public class Main {
     public static void main(String[] args){
@@ -33,6 +34,7 @@ public class Main {
 
         //Declarative approach
         System.out.println("\nDeclarative Approach");
+        //Predicate<Person> personPredicate = person -> FEMALE.equals(person.gender);
         List<Person> females2 = people.stream()
                 .filter(person -> FEMALE.equals(person.gender))
                 .collect(Collectors.toList());

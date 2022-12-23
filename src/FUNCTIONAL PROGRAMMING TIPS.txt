@@ -12,12 +12,27 @@ Return values you want
 
 --Streams--
 
-allMatch
+.allMatch
 All matching the thing
 
-anyMatch
+.anyMatch
 If got at least one matching the thing
 
-noneMatch
+.noneMatch
 don't have the thing / no thing inside
+
+--Optional--
+Optional.ofNullable("")
+
+.orElseGet
+Defining default value
+
+.orElseThrow
+Throwing exceptions
+
+.ifPresent
+if got data (not null)
+
+.ifPresentOrElse
+if present do something, else do something
 

@@ -9,3 +9,27 @@ Do something and return BOOLEAN
 
 Supplier
 Return values you want
+
+--Streams--
+
+.allMatch
+All matching the thing
+
+.anyMatch
+If got at least one matching the thing
+
+.noneMatch
+don't have the thing / no thing inside
+
+--Optional--
+Optional.ofNullable("")
+
+.orElseGet
+Defining default value
+
+.orElseThrow
+Throwing exceptions
+
+.ifPresent
+if got data (not null)
+

@@ -1,0 +1,8 @@
+Consumer
+Do something without returning anything
+
+Function
+Do something and return something
+
+Predicate
+Do something and return BOOLEAN

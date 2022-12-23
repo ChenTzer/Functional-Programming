@@ -1,11 +1,10 @@
-package Imperative_VS_Declarative;
+package imperativeVSDeclarative;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-import static Imperative_VS_Declarative.Main.Gender.*;
+import static imperativeVSDeclarative.Main.Gender.*;
 
 public class Main {
     public static void main(String[] args){

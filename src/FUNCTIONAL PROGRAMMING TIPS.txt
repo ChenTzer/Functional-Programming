@@ -1,3 +1,5 @@
+Youtube Link: https://www.youtube.com/watch?v=VRpHdSFWGPs
+
 Consumer
 Do something without returning anything
 
@@ -19,7 +21,7 @@ All matching the thing
 If got at least one matching the thing
 
 .noneMatch
-don't have the thing / no thing inside
+don't have the thing / nothing inside
 
 --Optional--
 Optional.ofNullable("")

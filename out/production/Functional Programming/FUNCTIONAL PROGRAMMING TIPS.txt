@@ -38,3 +38,13 @@ if got data (not null)
 .ifPresentOrElse
 if present do something, else do something
 
+//RULES
+- No state
+
+- Pure Functions
+
+- No Side Effects
+
+- High Order Functions
+    * The function takes one or more functions as parameters.
+    * The function returns another function as result
